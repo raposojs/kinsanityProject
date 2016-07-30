@@ -20,15 +20,15 @@ function kinSelector(name){
 			word = word
 		}
 
-		if(word.slice(-3).toLowerCase() === lastThree){
+		if(word.slice(-3).toLowerCase() === lastThree.toLowerCase()){
 					
-			kinArr.push(word)
+			kinArr.push(word.slice(0,1).concat(word.slice(1,word.length).toLowerCase()))
 		}
 	}
 }
 
 // PASS YOUR NAME AS THE ARGUMENT!
-kinSelector("bruno")
+kinSelector("Kin")
 
 console.log(kinArr)
 
