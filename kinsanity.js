@@ -1,17 +1,15 @@
 	 
-
-
-
-
 	 // What is your name??
 
-	INSERT_NAME_HERE = "kin" 
+	INSERT_NAME_HERE = "Kin" 
 	
 	// INSERT NAME HERE ^^^
 
+	// After inserting name, save file
 
-//RUN "$ node kinsanity.js" in your terminal to see the words you can
-// use to reference with your name!
+
+// RUN "$ node kinsanity.js" in your terminal to see the words you 
+// reference with your name!
 
 // Visit https://github.com/raposojs/kinsanityProject for repo
 
@@ -97,7 +95,7 @@ function kinSelector(name){
 	}
 }
 
-kinSelector(WHAT_IS_YOUR_NAME)
+kinSelector(INSERT_NAME_HERE)
 
 console.log(kinArr)
 
