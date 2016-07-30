@@ -1,3 +1,73 @@
+	 
+
+
+
+
+	 // What is your name??
+
+	INSERT_NAME_HERE = "kin" 
+	
+	// INSERT NAME HERE ^^^
+
+
+//RUN "$ node kinsanity.js" in your terminal to see the words you can
+// use to reference with your name!
+
+// Visit https://github.com/raposojs/kinsanityProject for repo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var fs = require('fs')
 
 var dictionary = fs.readFileSync("CMUDICT.txt").toString().split("\n");
@@ -27,10 +97,7 @@ function kinSelector(name){
 	}
 }
 
-// PASS YOUR NAME AS THE ARGUMENT!
-kinSelector("Kin")
+kinSelector(WHAT_IS_YOUR_NAME)
 
 console.log(kinArr)
 
-//RUN $ node kinsanity.js in your terminal to see the words you can
-// use to reference with your name!
